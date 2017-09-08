@@ -8,38 +8,38 @@
 <div class="layout-wrapper">
   <div class="header">
   <img src="./image/logo.jpg" style class="logo">
-  <input type="text" placeholder="궁금한 친구를 검색해보세요." style="width:300px; height:27px; margin:12px;float:left;"></input>
-     <img src="./image/profile.jpg" style="width:27px; height:27px; margin:12px; padding:0px 0px 0px 110px; border-right:1px solid #29487d;">
+  <input type="text" placeholder="궁금한 친구를 검색해보세요." style class="text"></input>
+     <img src="./image/profile.jpg" style class="profileimg">
 </div>
  <!--float:left;쓰는 이유 이거 안쓰니깐 이미지 안나왔음 이건 헤드 위에 또 올리는 건데 왜지?-->
 
 <!--1-->
-<div style="background-color:#e9ebee; width:25%; height:100%; float: left;">
-<div style="background-color:white; width:190px; height:100%; margin:12px; float:right;"></div>
+<div style class="leftbackground">
+<div style class="leftbackground-1"></div>
 </div>
 
 <!--2-1-->
-<div style="background-color:#e9ebee; width:45%; height:100%; float: left;">
-   <div style="background-color:white; height:23%; margin:12px;">
+<div style class="centerbackground">
+   <div style class="centerbackground-1">
       <div style="background-color:#f6f7f9; height:30px; border-bottom: 1px solid #dee0e3;"></div>
-           <div style="background-color:white; height:70px; border-bottom: 1px solid #e9ebee; margin:15px;">
-           <img src="./image/profile.jpg" style="width:50px; height:50px; float:left; margin:5px;">
-           <input type="text" placeholder="무슨 생각을 하고 계신가요?" style="height:50px; float:left; margin:5px; border:0px;"></input type>
+           <div style class="centerbackground-2">
+           <img src="./image/profile.jpg" style class="centerbackgroundprofileimg-1">
+           <input type="text" placeholder="무슨 생각을 하고 계신가요?" style class="center_text"></input type>
    </div>
 </div>
 
 <!--2-2-->
-<div style="background-color:white; height:71%; margin:12px;">
-<div style="height:30px; border-bottom:1px solid #dee0e3; margin:15px;"></div>
-<div style="height:470px; border-bottom:1px solid #dee0e3; margin:15px;"></div>
+<div style class="centerbackground_bottom">
+<div style class="centerbackground_bottom-1"></div>
+<div style class="centerbackground_bottom-2"></div>
 </div>
 
 </div>
 
 <!--3-->
-  <div style="background-color:#e9ebee; width:30%; height:100%; float: left;">
-    <div style="background-color:white; width:250px; height:30%; margin:12px;"></div>
-    <div style="background-color:white; width:250px; height:70%; margin:12px;"></div>
+  <div style class="rightbackground">
+    <div style class="rightbackground-1"></div>
+    <div style="rightbackground-2"></div>
   </div>
 
 
